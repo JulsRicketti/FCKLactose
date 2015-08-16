@@ -8,6 +8,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Fuck Lactose First Draft</title>
 
+	<!--JQuery -->
+	<script src="js/jquery.js"></script>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -15,67 +17,21 @@
     <link href="css/business-casual.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     
+    
+
+     <script> 
+     jQuery(document).ready(function(){
+         $("#header").load("header.html"); 
+         $("#footer").load("footer.html"); 
+     });
+     </script> 
+
   </head>
   <body>
   	
-  	<div class="brand">FCK Lactose</div>
-    <!-- Make sure to generate a random message every time someone accesses the page-->
-    <div class="entrance-message-bar">A lactose free safe-space for all those who get the shits the moment they have any</div>
+<div id="header"></div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="test.html">Fuck Lactose</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li class="dropdown">
-					    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Recipes</a>
-					    <ul class="dropdown-menu">
-					        <li><a href="#">Breakfast </a></li>
-					        <li><a href="#">Lunch</a></li>
-					        <li><a href="#">Dinner</a></li>
-					        <li><a href="#">Dessert</a></li>
-					        <li><a href="#">Snack</a></li>
-					    </ul>
-	          </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    
-  <!--  <div class="container">
-    	<section>
-    		<div class="page-header">
-  				<h2><small> Compiled on this website are a fuck ton of great recipes which are 100% lactose free. 
-    				Hell, we're going to try to keep it as dairy-free as possible.</small></h2>
-  			</div>
-  			 <img src="img/Logo/u9a2HZn.png">
-    	</section>
-    </div> -->
-    
-    
+	
     <!-- Gallery -->
 	<div class="container">
 		<section>
@@ -127,22 +83,9 @@
     
 
     
- 	<footer class="navbar-inverse">
- 		<div class="container text-center">
- 			
-				    <h7>Check out our awesome social media accounts for more of this great and inclusive shit!</h7>
-			
-			        <ul class="list-inline">
-			          <li><a href="#" class="btn btn-info btn"><i class="fa fa-twitter fa-2x"></i></a></li>
-			          <li><a href="#" class="btn btn-danger btn"><i class="fa fa-youtube fa-2x"></i></a></li>
-			          <li><a href="#" class="btn btn-primary btn"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-			        </ul>
-	       	<br>
-			<h6>Copyright &copy; 2015 Juls & Steph</h6>
-			<h6>Coded by Juls</h6>
-      </div><!-- end Container-->
+<div id="footer"></div>
 
-    </footer>
+
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
