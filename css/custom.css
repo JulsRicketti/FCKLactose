@@ -16,3 +16,8 @@ header{
 	font-size: 11px;
 	padding: 20px;
 }
+
+.carousel-images{
+	width: 703px !important;
+	height: 480px !important;
+}
