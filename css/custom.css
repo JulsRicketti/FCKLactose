@@ -21,3 +21,10 @@ header{
 	width: 703px !important;
 	height: 480px !important;
 }
+
+.circle-image{
+    width:200px;
+    height:200px;
+    border-radius:50% !important;
+
+}
